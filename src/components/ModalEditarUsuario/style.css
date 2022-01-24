@@ -1,0 +1,42 @@
+.modal-usuario {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+
+  width: 480px;
+  gap: 20px;
+  padding: 40px 56px;
+  border-radius: 30px;
+
+  box-shadow: 0px 3px 5px -1px rgb(0 0 0 / 20%),
+    0px 5px 8px 0px rgb(0 0 0 / 14%), 0px 1px 14px 0px rgb(0 0 0 / 12%);
+  background-color: #fff;
+}
+
+.modal-usuario > div {
+  align-self: stretch;
+}
+
+.modal-usuario--container {
+  display: flex;
+  gap: 10px;
+}
+
+.modal-usuario--container div {
+  flex-grow: 1;
+}
+
+.editar--close {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  cursor: pointer;
+}
+
+.editar--h1 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: bold;
+  align-self: center;
+}

@@ -1,0 +1,42 @@
+.tabela-erro {
+  width: 100%;
+  border-radius: 30px;
+  padding-bottom: 80px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  background-color: white;
+}
+
+.tabela-erro--container {
+  position: relative;
+}
+
+.tabela-erro--avatar {
+  position: absolute;
+  right: 56px;
+  top: 56px;
+}
+
+.tabela-erro--container2 {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 16px;
+}
+
+.tabela-erro--container2 > span:first-child {
+  font-weight: 600;
+  font-size: 28px;
+
+  color: #f08889;
+}
+
+.tabela-erro--container2 > span:last-child {
+  font-weight: 600;
+  font-size: 24px;
+
+  color: #9b9bb2;
+}

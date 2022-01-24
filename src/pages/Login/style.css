@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.background {
+  display: flex;
+}
+
+.background-login-img {
+  background-image: url("../../assets/login-img.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  padding: 0px 9px;
+}
+
+.background-left-conteudo {
+  height: 100%;
+  width: 100%;
+  background: rgba(3, 74, 42, 0.05);
+  padding: 163px 80px 0px 80px;
+}
+
+.background-left-conteudo h1 {
+  color: #034a2a;
+  text-align: center;
+}
+
+.check {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 32px;
+  width: 32px;
+}
+
+.check img {
+  margin-bottom: 4px;
+}
+
+.container-info {
+  margin-left: 24px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 25px;
+}
+
+.info h1 {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  color: #0e8750;
+  margin-bottom: 8px;
+}
+
+.info p {
+  font-family: "Nunito", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  color: #3f3f55;
+}
+
+.background-right-login {
+  width: 70%;
+  padding: 230px 230px 0px 230px;
+  background-color: #f8f8f9;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container-input {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0%;
+  width: 355px;
+}
+
+.container-input h1 {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  color: #343447;
+  margin-bottom: 32px;
+}
+
+.container-input label {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  color: #343447;
+  margin-bottom: 6px;
+}
+
+.container-input a {
+  color: #da0175;
+}
+
+.repetir-senha {
+  margin-bottom: 46px;
+}
+
+.botao-entrar {
+  all: unset;
+  box-sizing: border-box;
+  cursor: pointer;
+  background: #da0175;
+  border-radius: 10px;
+  padding: 4px 40px;
+  color: #f8f8f9;
+  font-family: "Nunito", sans-serif;
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.progresso {
+  display: flex;
+  gap: 8px;
+}
+.a {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cadastrar-text {
+  margin-top: 15px;
+}

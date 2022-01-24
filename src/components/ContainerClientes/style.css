@@ -1,0 +1,26 @@
+.clientes--top {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.clientes--top > div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.clientes--h1 {
+  font-weight: 600;
+  color: #343447;
+}
+
+.filtro-input {
+  background-color: white;
+  padding: 8px;
+  border-radius: 10px;
+}
+
+.filtro-input img {
+  display: block;
+}

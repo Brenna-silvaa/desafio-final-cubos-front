@@ -1,0 +1,28 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+
+  font-family: "Montserrat";
+
+  background: #f8f8f9;
+  min-height: 100vh;
+}
+
+label {
+  font-family: "Nunito";
+  font-size: 14px;
+  font-weight: 600;
+
+  display: block;
+  margin-bottom: 8px;
+}
+
+h1 {
+  font-size: 24px;
+}

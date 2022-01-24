@@ -1,0 +1,81 @@
+.modal-detalhes-cobranca {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+
+  width: 580px;
+  gap: 40px;
+  padding: 60px 56px;
+  border-radius: 30px;
+
+  box-shadow: 0px 3px 5px -1px rgb(0 0 0 / 20%),
+    0px 5px 8px 0px rgb(0 0 0 / 14%), 0px 1px 14px 0px rgb(0 0 0 / 12%);
+  background-color: #fff;
+
+  font-family: "Nunito";
+  font-style: normal;
+  font-size: 16px;
+  color: #3f3f55;
+}
+
+.detalhes--close {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  cursor: pointer;
+}
+
+.detalhes-cobranca--header,
+.detalhes-cobranca--container {
+  display: flex;
+}
+
+.detalhes-cobranca--header {
+  gap: 16px;
+  align-items: center;
+
+  font-family: "Montserrat";
+  font-weight: 600;
+  font-size: 26px;
+
+  color: #3f3f55;
+}
+
+.modal-detalhes-cobranca h2 {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  color: #3f3f55;
+}
+
+.detalhes-cobranca--container {
+  gap: 146px;
+}
+
+.detalhes-cobranca--campo {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.detalhes-cobranca--vencida-td {
+  padding: 2px 8px;
+  color: #971d1d;
+  background: #ffefef;
+  border-radius: 8px;
+}
+
+.detalhes-cobranca--paga-td {
+  padding: 2px 10px;
+  color: #1fa7af;
+  background: #eef6f6;
+  border-radius: 8px;
+}
+
+.detalhes-cobranca--pendente-td {
+  padding: 2px 8px;
+  color: #c5a605;
+  background: #fcf6dc;
+  border-radius: 8px;
+}

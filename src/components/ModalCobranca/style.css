@@ -1,0 +1,98 @@
+.modal-cadastrar-cobranca {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+
+  width: 580px;
+  gap: 20px;
+  padding: 40px 56px;
+  border-radius: 30px;
+
+  box-shadow: 0px 3px 5px -1px rgb(0 0 0 / 20%),
+    0px 5px 8px 0px rgb(0 0 0 / 14%), 0px 1px 14px 0px rgb(0 0 0 / 12%);
+  background-color: #fff;
+}
+
+.modal-cadastrar-cobranca--top {
+  display: flex;
+  gap: 15px;
+}
+
+.modal-cadastrar-cobranca > div {
+  align-self: stretch;
+}
+
+.modal-cadastrar-cobranca--container {
+  display: flex;
+  gap: 10px;
+}
+
+.modal-cadastrar-cobranca--container div {
+  flex-grow: 1;
+}
+
+.cobranca--cidade-uf {
+  display: flex;
+  gap: 10px;
+}
+.cidade {
+  width: 80%;
+}
+
+.text-desc:focus {
+  outline-color: #b20a64;
+}
+
+.text-desc {
+  height: 10vh;
+  border-radius: 8px;
+  background-color: white;
+  border-color: #ababb8;
+  width: 100%;
+  resize: none;
+  padding: 10px;
+  font-size: 16px;
+  font-family: "Nunito";
+  font-weight: 400;
+}
+
+.text-desc::placeholder {
+  opacity: 0.6;
+}
+.editar--close {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  cursor: pointer;
+}
+
+.modal-cadastrar-cobranca--h1 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: bold;
+  align-self: center;
+}
+
+.btn-container {
+  gap: 20px;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.btn-cancelar {
+  all: unset;
+  cursor: pointer;
+  box-sizing: border-box;
+  background: #f8f8f9;
+
+  border: 1px solid #dedee9;
+  border-radius: 10px;
+
+  text-align: center;
+  font-family: "Nunito";
+  font-size: 18px;
+  color: #0e8750;
+  width: 160px;
+}

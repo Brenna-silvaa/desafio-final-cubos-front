@@ -1,0 +1,21 @@
+.cobrancas-section {
+  margin-left: 188px;
+  width: 79%;
+}
+
+.cobrancas--top {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.cobrancas--top > div {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.cobrancas--h1 {
+  font-weight: 600;
+  color: #343447;
+}

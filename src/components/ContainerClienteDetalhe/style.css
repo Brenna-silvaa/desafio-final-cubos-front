@@ -1,0 +1,80 @@
+.cliente-detalhe--top {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.cliente-detalhe--top > div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.cliente-detalhe--h1 {
+  font-weight: 600;
+  color: #343447;
+}
+
+.cliente-detalhe--dados {
+  padding: 24px;
+  border-radius: 30px;
+  background-color: white;
+  margin-bottom: 30px;
+}
+
+.cliente-detalhe--h2 {
+  font-weight: bold;
+  font-size: 18px;
+  color: #3f3f55;
+}
+
+.cliente-detalhe--dados > div {
+  display: flex;
+}
+
+.cliente-detalhe--dados table {
+  font-family: "Nunito";
+}
+
+.cliente-detalhe--container2 {
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.cliente-detalhe--t1,
+.cliente-detalhe--t2 {
+  width: 100%;
+}
+
+.cliente-detalhe--t1 {
+  margin-bottom: 55px;
+}
+.cliente-detalhe--dados th {
+  text-align: start;
+  font-weight: bold;
+  font-size: 16px;
+
+  color: #3f3f55;
+}
+
+.cliente-detalhe--dados td {
+  color: #3f3f55;
+}
+
+.cliente-detalhe--dados th,
+td {
+  min-width: 100px;
+}
+
+.cliente-detalhe--tabela-container {
+  padding: 24px;
+  border-radius: 30px;
+  background-color: white;
+}
+
+.cliente-detalhe--tabela-container > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

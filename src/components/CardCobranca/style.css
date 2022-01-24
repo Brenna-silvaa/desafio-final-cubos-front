@@ -1,0 +1,31 @@
+.resumo {
+  border-radius: 30px;
+  padding: 23px 5px;
+
+  color: #3f3f55;
+
+  display: flex;
+  justify-content: center;
+}
+
+.resumo--img {
+  display: block;
+  margin-right: 46px;
+}
+
+.resumo--container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.resumo--titulo {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.resumo--valor {
+  font-weight: bold;
+  font-size: 24px;
+}

@@ -1,0 +1,123 @@
+.background {
+  display: flex;
+  min-height: 100vh;
+}
+
+.background-left {
+  background-color: #f0f0f5;
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  padding: 174px 54px 0px 57px;
+}
+
+.check {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 32px;
+  width: 32px;
+}
+
+.check img {
+  margin-bottom: 4px;
+}
+
+.container-info {
+  margin-left: 24px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 25px;
+}
+
+.info h1 {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  color: #0e8750;
+  margin-bottom: 8px;
+}
+
+.info p {
+  font-family: "Nunito", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  color: #3f3f55;
+}
+
+.background-right {
+  width: 70%;
+  padding: 235px 279px 65px 293px;
+  background-color: #f8f8f9;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.background-right--container {
+  width: 368px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0%;
+  margin-bottom: 100px;
+}
+
+.background-right--container h1 {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  color: #343447;
+  margin-bottom: 32px;
+}
+
+.background-right--container label {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  color: #343447;
+  margin-bottom: 6px;
+}
+
+.nome,
+.senha {
+  margin-bottom: 20px;
+  align-self: stretch;
+}
+
+.email,
+.repetir-senha {
+  margin-bottom: 46px;
+  align-self: stretch;
+}
+
+.background-right--botoes {
+  display: flex;
+  gap: 15px;
+}
+
+.background-right--container span a {
+  color: #da0175;
+  margin-left: 4px;
+}
+
+.faca-login {
+  margin-top: 10px;
+}
+
+.progresso {
+  display: flex;
+  gap: 8px;
+  position: fixed;
+  bottom: 64px;
+}
