@@ -15,5 +15,5 @@ A versão final do código de cada sprint deverá estar na branch principal do r
 
 
 
-**URL da aplicação funcionando**: https://desafio-m05-6codam.netlify.app/
+
 
